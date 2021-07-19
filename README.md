@@ -1,1 +1,0 @@
-https://karolinainspirit.github.io/rsschool-cv/cv
