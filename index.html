@@ -9,9 +9,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#personal-info">Presonal Info</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code">Code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#english">English</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="container">
             <div class="left-column">
@@ -20,7 +52,7 @@
                     <figcaption class="explanation"><b>Karolina Latushko</b></figcaption>
                 </figure>
                 <div class="contacts">
-                    <h2><b>Contacts:</b></h2>
+                    <h2 id="contacts"><b>Contacts:</b></h2>
                     <ul class="sites">
                         <li class="site-name"><b>E-mail:</b> <a
                                 href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=karoline.inspirit@gmail.com">karoline.inspirit@gmail.com</a>
@@ -30,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="skills">
-                    <h2><b>Skills:</b></h2>
+                    <h2 id="skills"><b>Skills:</b></h2>
                     <ul class="skills-list">
                         <li class="skills-name">HTML5</li>
                         <li class="skills-name">CSS3</li>
@@ -42,30 +74,48 @@
                 </div>
             </div>
             <div class="right-column">
-                <section class="about-me">
-                    <h1>Personal Information</h1>
+                <section class="presonal-info">
+                    <h1 id="presonal-info">Personal Information</h1>
                     <p>I have been studying programming by myself for almost a year.
                         During this, I’ve come to realize that I need to be completely immersed in this path.
                         And now my goal is to become a professional developer.
                         An amazing course, which is provided by RSSchol, hopefully, will help me to get missing skills.
                         So then I could acieve the main goal of my life.</p>
                 </section>
-                <section class="about-me">
-                    <h1>Work Experience</h1>
+                <section class="personal-info">
+                    <h1 id="work">Work Experience</h1>
                     <p>I haven’t ever worked in IT sphere, but I want to do that in the nearest future!
                         And also you can see my example project <a
                             href="https://github.com/KarolinaInspirit/my-portfolio"><b>here</b></a>
                     </p>
                 </section>
                 <section class="about-me">
-                    <h1>Education</h1>
+                    <h1 id="education">Education</h1>
                     <p>I graduated BarSU (Faculty of Linguistics) in 2017. As for IT, I use different sources to learn.
                         Predominantly, the Internet of course. Now I am taking online RSSchool’s courses!</p>
                 </section>
                 <section class="about-me">
-                    <h1>English</h1>
+                    <h1 id="english">English</h1>
                     <p>My language proficiency’s level is <b>B1</b>.
                         But I permanently keep improving the quality of my conversational skills!</p>
+                </section>
+                <section class="about-me">
+                    <h1 id="code">Code Example</h1>
+                    <div class="code">
+                        <pre>
+                            <code class="javascript">
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return [startNum];
+  } else {
+    var numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
+  }
+}
+                            </code>
+                        </pre>
+                    </div>
                 </section>
             </div>
         </div>
@@ -73,7 +123,7 @@
     <footer class="footer">
         <a class="github" href="https://github.com/KarolinaInspirit" target="_blank">GitHub</a>
         <a class="rsschool" href="https://rs.school/js/" target="_blank">
-            <img src="img/rs.svg" style="width: 55px" alt="logo">
+            <img src="img/rs.svg" style="width: 110px" alt="logo">
         </a>
         <p class="year">© 2021</p>
     </footer>
