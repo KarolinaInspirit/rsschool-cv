@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -55,7 +54,7 @@ body {
     list-style: none;
 }
 
-.sites a{
+.sites a {
     text-decoration: none;
     color: rgb(128, 1, 71);
 }
@@ -84,7 +83,6 @@ body {
 .about-me a:hover {
     text-decoration: none;
     color: rgb(26, 26, 26);
-    
 }
 
 h1 {
@@ -100,7 +98,7 @@ h2 {
 /*footer*/
 
 .footer {
-    background-color:rgb(128, 1, 71);
+    background-color: rgb(128, 1, 71);
     height: 50px;
     width: 630px;
     display: flex;
@@ -120,5 +118,5 @@ h2 {
 }
 
 .year {
-    color:#e0e0e0 
+    color: #e0e0e0
 }
