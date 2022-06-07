@@ -77,19 +77,24 @@ body {
 }
 
 .about-me a {
-    text-decoration: none;
-    color: rgb(26, 26, 26);
+    text-decoration: underline;
+    color: rgb(128, 1, 71);
 }
 
 .about-me a:hover {
-    color: rgb(128, 1, 71);
-    text-decoration: underline;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    
 }
 
 h1 {
     font-size: 30px;
     color: rgb(128, 1, 71);
     margin-bottom: 15px;
+}
+
+h2 {
+    line-height: 60px;
 }
 
 /*footer*/
