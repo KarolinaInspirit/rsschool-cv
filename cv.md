@@ -1,16 +1,16 @@
-# Karolina Latushko
+# Karolina Latushko 
 
 ---
 
 ## My contacts:
-+ ___E-mail:___ karoline.inspirit@gmail.com
++ ___E-mail:___ [karoline.inspirit@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=karoline.inspirit@gmail.com)
 + ___Telegram:___ @karolina_yurievna
 + ___VK:___ [Karolina Yurievna](https://vk.com/just_ker)
 
 ---
 
 ## Personal information:
-I have been studying programming by myself for almost a year. During this, I've come to realize that I need to be completely immersed in this path. And now my goal is to become a professional developer. An amazing course, which is provided by RSSchol, hopefully, will help me to get missing skills. So then I could acieve the main goal of my life.
+I have been studying programming by myself for almost a year. During this, I've come to realize that I need to be completely immersed in this path. And now my goal is to become a professional developer. An amazing course, which is provided by RSSchool, hopefully, will help me to get missing skills. So then I could achieve the main goal of my life.
 
 __My advantages:__
 + _perseverance_
@@ -21,7 +21,7 @@ __My advantages:__
 ---
 
 ## Skills:
-Unfortunattely, I don't have too many skills to show. But I've been learning _HTML_ and _CSS_. Because of them I made my first layout. Also I've started to learn _Git_, _Bootstrap, Flex_ and _JS_ right before the beginning of the course. And I try my best c:
+Unfortunately, I don't have too many skills to show. But I've been learning _HTML_ and _CSS_. Because of them I made my first layout. Also I've started to learn _Git_, _Bootstrap, Flex_ and _JS_ right before the beginning of the course. And I try my best c:
 
 ---
 
@@ -49,14 +49,14 @@ __! If it's not enough, you can see more code in__ [my layout](https://karolinai
 ---
 
 ## Work experience
-I haven't ever worked as _Junior Dev._ or somebody like that, but I want to do that in the nearest future!
+I haven't ever worked as _Junior Dev._ But I want to do that in the nearest future!
 
 ---
 
 ## Education
 I graduated BarSU (Faculty of Linguistics) in 2017. 
 I use different sources to learn code. Predominantly, the Internet of course.
-Now I am taking online RSSchool's courses! 
+Now I am taking online RSSchool's course! 
 
 ---
 
