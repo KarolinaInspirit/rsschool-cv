@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Questrial', 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 32px;
     background: rgb(156, 147, 167);
     display: flex;
     align-items: center;
@@ -14,40 +15,82 @@ body {
 }
 
 .container {
-    margin-top: 20px;
     display: flex;
-    width: 630px;
-    height: 840px;
-    border: solid gray 1px;
+    max-width: 1500px;
+    min-width: 320px;
 }
+
+h1 {
+    font-size: 115px;
+    color: rgb(128, 1, 71);
+    padding: 40px 0px;
+}
+
+h2 {
+    font-size: 62px;
+    color: rgb(128, 1, 71);
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-list,
+.footer {
+    background-color: rgb(128, 1, 71);
+    height: 125px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: rgb(224, 224, 224);
+}
+
+.nav-item a {
+    font-size: 36px;
+    color: rgb(224, 224, 224);
+}
+
+.nav-item a:hover,
+.github:hover {
+    color: rgb(153, 214, 229);
+}
+
 
 /*left side*/
 
-.left-column {
-    width: 40%;
-    background: #99d6e5;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.explanation {
-    font-size: 55px;
-    color: rgb(128, 1, 71);
-    margin-left: 15px;
+.left-column {
+    padding: 60px;
+    width: 40%;
+    background: rgb(153, 214, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .image img {
-    margin: 20px;
-    width: 210px;
-    box-shadow: 10px 15px 15px rgb(34, 34, 34);
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+    background: linear-gradient(45deg, rgb(128, 1, 60), rgb(117, 10, 103));
+    max-height: 650px;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 0px 0px 60px 10px rgb(128, 1, 71);
+    border: rgb(255, 255, 133) dotted 10px;
 }
 
-.contacts, .skills {
-    font-size: 15px;
-    padding: 10px 20px;
+.contacts,
+.skills {
+    padding: 20px 0px;
 }
 
 .sites {
@@ -60,23 +103,27 @@ body {
 }
 
 .skills-list {
-    padding-left: 20px;
+    padding-left: 40px;
 }
+
 
 /*right side*/
 
+
 .right-column {
-    border-left: dotted white 30px;
+    border-left: dotted white 75px;
     width: 60%;
     background: #e0e0e0;
+    padding: 15px 60px;
 }
 
 .about-me {
-    margin: 35px;
+    padding-top: 110px;
 }
 
 .about-me a {
     text-decoration: underline;
+    font-weight: bold;
     color: rgb(128, 1, 71);
 }
 
@@ -85,42 +132,30 @@ body {
     color: rgb(26, 26, 26);
 }
 
-h1 {
-    font-size: 30px;
+.personal-info a {
     color: rgb(128, 1, 71);
-    margin-bottom: 15px;
-}
-
-h2 {
-    line-height: 60px;
-}
-
-/*footer*/
-
-.footer {
-    background-color: rgb(128, 1, 71);
-    height: 50px;
-    width: 630px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding-top: 15px;
-}
-
-.github {
-    text-decoration: none;
-    color: #e0e0e0;
-}
-
-.github:hover {
     text-decoration: underline;
+}
+
+.personal-info a:hover {
     color: rgb(26, 26, 26);
 }
 
-.rsschool img {
-    width: 55px;
+.code {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
+
+/*footer*/
+
+
+.github,
 .year {
     color: #e0e0e0
+}
+
+.rsschool img {
+    width: 105px;
 }
