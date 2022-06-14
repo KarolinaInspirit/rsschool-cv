@@ -1,3 +1,3 @@
-[CV](https://karolinainspirit.github.io/rsschool-cv/cv)
+# rsschool-cv
 
-[CV-HTML](https://karolinainspirit.github.io/rsschool-cv/)
+https://karolinainspirit.github.io/rsschool-cv/
